@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BST">
+      <UniqueIdentifier>{825fe633-1856-4cc4-b0be-eb52634000fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AVL">
+      <UniqueIdentifier>{8c234117-0dd4-4aae-b90c-241db9c0ec90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BST">
+      <UniqueIdentifier>{c8e899cd-68a4-4244-b8c8-14d3c425bad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVL">
+      <UniqueIdentifier>{ce92cfc3-05e2-4b0b-808f-e00543c85b98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="airports.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="finder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IT_Finder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TSDDA.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BST\ch8_BSTpointerR.c">
+      <Filter>Source Files\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="AVL\ch8_AVLpointer.c">
+      <Filter>Source Files\AVL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IT_Finder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TSDDA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BST\ch8_BSTpointer.h">
+      <Filter>Header Files\BST</Filter>
+    </ClInclude>
+    <ClInclude Include="AVL\ch8_AVLpointer.h">
+      <Filter>Header Files\AVL</Filter>
+    </ClInclude>
+    <ClInclude Include="Finder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data Files\ICAO_Random_Input-Windows.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
